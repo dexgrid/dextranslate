@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>DEXGRID</Authors>
+    <Version>1.0.0-alpha1</Version>
+    <Company>DEXGRID OÜ</Company>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Copyright>DEXGRID OÜ 2019</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/dexgrid/dextranslate/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://www.dextranslate.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dexgrid/dextranslate</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>dextranslate API client</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="DexTranslate.ApiContract" Version="1.0.0-alpha1" />
+  </ItemGroup>
+
+</Project>

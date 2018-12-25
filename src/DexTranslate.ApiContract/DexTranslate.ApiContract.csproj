@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0-alpha1</Version>
+    <Authors>DEXGRID</Authors>
+    <Company>DEXGRID OÜ</Company>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/dexgrid/dextranslate/master/LICENSE</PackageLicenseUrl>
+    
+    <PackageProjectUrl>https://www.dextranslate.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dexgrid/dextranslate</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>API contracts for dextranslate</Description>
+    <Copyright>DEXGRID OÜ 2019</Copyright>
+    <PackageIconUrl></PackageIconUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

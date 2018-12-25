@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\DexTranslate.ApiClient\DexTranslate.ApiClient.csproj" />
-    <ProjectReference Include="..\..\src\DexTranslate.ApiContract\DexTranslate.ApiContract.csproj" />
   </ItemGroup>
 
 </Project>

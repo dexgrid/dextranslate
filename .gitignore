@@ -261,3 +261,5 @@ paket-files/
 __pycache__/
 *.pyc
 src/DexTranslate.Api/dextranslate.db
+.vscode/
+nuget/

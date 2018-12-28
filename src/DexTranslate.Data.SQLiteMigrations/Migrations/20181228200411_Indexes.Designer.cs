@@ -2,14 +2,16 @@
 using DexTranslate.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DexTranslate.Data.SQLiteMigrations.Migrations
 {
     [DbContext(typeof(TranslationContext))]
-    partial class TranslationContextModelSnapshot : ModelSnapshot
+    [Migration("20181228200411_Indexes")]
+    partial class Indexes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

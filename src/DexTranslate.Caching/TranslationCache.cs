@@ -60,7 +60,7 @@ namespace DexTranslate.Caching
         public void Clear(string languageKey, string projectKey)
         {
             var key = TranslationCacheKey.Create(languageKey, projectKey);
-            _cache.Remove(key);
+            _cache.Remove(key.ToString());
         }
     }
 }

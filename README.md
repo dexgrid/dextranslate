@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## DexTranslate
 
-You can use the [editor on GitHub](https://github.com/dexgrid/dextranslate/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+DexTranslate is a microservice that simplifies dealing with localization in asp.net core projects.
+Setting up localization is always a hassle, but outsourcing the boilerplate logic to this handy microservice will hopefuly save you some time!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To get started add the dextranslate api client to your asp.net core project, add the service url to the configuration and host the dextranslate service in docker or a webserver.
 
-### Markdown
+To see how to configure your asp.net core application have a look at the [example application](https://github.com/dexgrid/dextranslate-example).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Features
+- import and export translations in csv format
+- support for multiple databases (sqlite, pgsql, mssql)
+- Caching on both the server side and the client side
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dexgrid/dextranslate/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
